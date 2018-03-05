@@ -1,0 +1,90 @@
+
+CAPITULO 1
+
+1.-Para cada uno de los siguientes identificadores de Java, tenga en cuenta si es legal o ilegal:
+a. budgetApprova
+b. German Shepherd
+c. static
+d. HELLO
+e. 212AreaCode
+f. qhu6TRfg
+g. ssn#
+h. 4999
+i. 17
+j. Accounts_Receivable
+k. 32MPG
+l. rulesOfOrder
+a. legal	
+b. ilegal
+c. ilegal
+d. ilegal
+e. ilegal
+f. legal
+g. ilegal
+h. ilegal
+i. ilegal
+j. legal
+k. ilegal
+l. legal
+
+2. Nombre por lo menos 3 clases que podrían ser apropiados para cada una de las siguientes clases
+a. CruiseShip------------ Popa,Ancla, Velocidad
+b. InsurancePolicy------- Nombre, Cantidad a asegurar, Beneficiario. 
+c. StudentAcademicRecord- Nombre, Calificaciones, Materias 
+
+3.Nombre almenos tres objetos que son instancias de cada una de las siguientes clases:
+a. Song------------ Musica, Letra, Cantante
+b. BaseballTeam---- Bates, Pelotas, Jugadores
+c. Playwrigth------ Pluma, Hojas, Creatividad
+
+4. Nombre al menos 3 clases a las que puedan pertenecer cada uno de estos objetos.
+a. myRedSweater----------- MisCosas, Ropa, Ropero
+b. londonEngland---------- Paises, LugaresTuristicos, Europa
+c. thursdayDinner--------- Planes, Comidas, Trabajo
+
+CAPITULO 2
+
+
+1. Cuál es el valor numérico de cada una de las siguientes expresiones evaluadas por Java?
+a. 3 + 7 * 2------ 17
+b. 18 / 3 + 4----- 10
+c. 9 / 3 + 12 / 4- 6
+d. 15 / 2--------- 7
+e. 14 / 3--------- 4
+f. 29 / 10-------- 2
+g. 14 % 2--------- 0
+h. 15 % 2--------- 1
+i. 31 % 7--------- 3
+j. 6 % 4 + 1------ 3
+k. (5 + 6) * 3---- 33
+l. 25 / (3 + 2)--- 5
+m. 13 % 15-------- 13
+
+2. Cuál es el valor de cada una de la siguientes expresiones booleanas?
+a. 5 < 8-------------- true
+b. 4 <= 9------------- false
+c. 3 == 4------------- false
+d. 12 >= 12----------- true
+e. 3 + 4 == 8--------- false
+f. 7 < 9 – 2---------- false
+g. 5 != 5------------- false
+h. 15 != 3 * 5-------- false
+i. 9 != –9------------ true
+j. 3 + 5 * 2 == 16---- false
+
+3.Elija el mejor tipo de datos para cada uno de los siguientes para que cualquier valor razonable sea 
+acomodado pero no se desperdicie el almacenamiento de memoria. Dé un ejemplo de un valor típico 
+que sería sostenido por la variable, y explique porqué usted eligió el tipo que usted hizo.
+
+a. the number of siblings you have------- (6)byte porque es un numero entero, porque no es cooerente tener hermanos partidos a la mitad y este tipo de primitivo es para datos no muy grandes y nadie tiene mass de 127 hermanos 
+b. your final grade in this class-------- (8.5)float, por ser posiblemente un numero en decimales, y con 32 bit estaria sobrado para una calificacion y el int no acepta decimales
+c. the population of Earth--------------- (413535435435435435)long, no conozco la población mundial pero por pura intuición se que sera un número grande y un long es de 64 bits y a mi parecer es suficiente
+d. the population of a U.S. county------- (16545684)int, no mas de 2^32
+e. the number of passengers on a bus----- (30) byte, es un número entero y es primitivo más adecuado para un número no muy largo
+f. one player’s score in a Scrabble game- (120) short, puede ser un número grande pero no tanto como para usar un int
+g. one team’s score in a Major League---- (12) byte, no es muy usual un marcador arriba de 20 y con 127 es suficiente
+Baseball game
+h. the year an historical event occurred- (1492)short, no hemos vivido más de 3000 años y un short tiene capacidad para más de 30000 
+i. the number of legs on an animal------- (4)byte, ni los cienpies tienen mas de 127 patas
+
+
